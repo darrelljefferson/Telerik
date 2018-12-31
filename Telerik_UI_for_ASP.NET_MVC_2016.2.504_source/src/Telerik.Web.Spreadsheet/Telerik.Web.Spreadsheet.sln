@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telerik.Web.Spreadsheet", "Telerik.Web.Spreadsheet\Telerik.Web.Spreadsheet.csproj", "{D697E6A6-319F-44FA-A757-443415FF43BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-NET40|Any CPU = Debug-NET40|Any CPU
+		Debug-NET45|Any CPU = Debug-NET45|Any CPU
+		Release-NET40|Any CPU = Release-NET40|Any CPU
+		Release-NET45|Any CPU = Release-NET45|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Debug-NET40|Any CPU.ActiveCfg = Debug-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Debug-NET40|Any CPU.Build.0 = Debug-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Debug-NET45|Any CPU.ActiveCfg = Debug-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Debug-NET45|Any CPU.Build.0 = Debug-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Release-NET40|Any CPU.ActiveCfg = Release-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Release-NET40|Any CPU.Build.0 = Release-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Release-NET45|Any CPU.ActiveCfg = Release-NET45|Any CPU
+		{D697E6A6-319F-44FA-A757-443415FF43BB}.Release-NET45|Any CPU.Build.0 = Release-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Debug-NET40|Any CPU.ActiveCfg = Debug-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Debug-NET40|Any CPU.Build.0 = Debug-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Debug-NET45|Any CPU.ActiveCfg = Debug-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Debug-NET45|Any CPU.Build.0 = Debug-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Release-NET40|Any CPU.ActiveCfg = Release-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Release-NET40|Any CPU.Build.0 = Release-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Release-NET45|Any CPU.ActiveCfg = Release-NET45|Any CPU
+		{F5A6C645-40D3-4F08-9A8B-39CB0108FEFF}.Release-NET45|Any CPU.Build.0 = Release-NET45|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

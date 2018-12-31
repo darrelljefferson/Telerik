@@ -1,0 +1,75 @@
+namespace Kendo.Mvc.UI
+{
+    using System.Globalization;
+
+    public class ChartAxisLabels : ChartLabels
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ChartAxisLabels" /> class.
+        /// </summary>
+        public ChartAxisLabels()
+        {
+            DateFormats = new ChartAxisLabelsDateFormats();
+            RotationOptions = new ChartAxisLabelsRotation();
+        }
+
+        /// <summary>
+        /// A value indicating whether to render the axis labels on the other side.
+        /// </summary>
+        public bool? Mirror
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Label rendering step. Every n-th label is rendered where n is the step.
+        /// </summary>
+        public int? Step
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Label rendering skip. Skips rendering the first n labels.
+        /// </summary>
+        public int? Skip
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Date formats for the date axis.
+        /// </summary>
+        public ChartAxisLabelsDateFormats DateFormats
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// Culture to use for formatting date labels.
+        /// </summary>
+        public CultureInfo Culture
+        {
+            get;
+            set;
+        }
+
+        /// <summary>
+        /// The rotation options for the labels.
+        /// </summary>
+        public ChartAxisLabelsRotation RotationOptions
+        {
+            get;
+            set;
+        }
+
+        public override IChartSerializer CreateSerializer()
+        {
+            return new ChartAxisLabelsSerializer(this);
+        }
+    }
+}

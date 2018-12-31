@@ -1,0 +1,519 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Changelog for  v2016.2.504 (May 04, 2016)</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font: .75em/1.5 Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-size: 2.2em;
+            font-size: normal;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: normal;
+
+            margin: 1.2em 0 .3em;
+            padding-bottom: .2em;
+        }
+
+        .breaking {
+            background-color: #e10c01;
+            color: #fff;
+            border-radius: 3px;
+            padding: 3px 4px;
+            display: inline-block;
+            font-size: 11px;
+            line-height: 1;
+            font-weight: bold;
+        }
+
+        #page {
+            width: 50em;
+            margin: 0 auto 2em;
+            border-radius: 0 0 1em 1em;
+            box-shadow: 0 0 10px #ccc;
+            padding: 1em 2em 2em;
+        }
+
+        .poBoxIcon {
+            float: left;
+            font-size: 2em;
+            margin: 1.2em .5em 0 0;
+        }
+
+        .poTopLine {
+            border-top: 2px solid #e1e1e1;
+            margin: 17px 0 40px 0;
+        }
+    </style>
+
+    <base href="http://www.telerik.com/support/whats-new/kendo-ui-web/release-history">
+</head>
+<body>
+    <div id="page">
+        <h1 class="title">Release notes for  v2016.2.504</h1>
+
+        <h1>Components</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <p><strong>What's new</strong></p>
+<ul>
+<li><span class='breaking'>Breaking</span> Source files are now distributed as separate packages in the downloads section</li>
+<li>TypeScript: Replace modules with ambient namespaces</li>
+<li>Address memory leak in IE after calling `kendo.saveAs()`</li>
+<li>Upgrade bundled jQuery to 1.12.3</li>
+<li>Add LESS files to NuGet packages</li>
+</ul>
+                <p><strong>What's fixed</strong></p>
+<ul>
+<li>The compiled culture files refer kendo.core by a path</li>
+<li>`gulp tests` task is missing from the gulpfile</li>
+<li>Missing loading indicator in Nova theme</li>
+<li>Incorrect typescript definitions for toggleable composite options</li>
+</ul>
+            </div>
+        </div>
+
+
+        <div class="tClear poTopLine">
+            <h2>ActionSheet</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Material Theme: Missing shadow for the popover</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>AngularJS</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>k-ng-model does not update $dirty and $pristine</li>
+<li>DatePicker cannot be disabled in IE11 when using AngularJS.</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Application</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Mobile Application destroy throws error with browser history set to false</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>AutoComplete</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>DropDown Grouping Headers jump up/down on hover of the first item in the group</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Calendar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Changing the month with disabled date is not possible, if the selected date in the current month equals to the disabled date in the month we try to navigate to.</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Chart</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add support for events when rendering to Canvas</li>
+<li>Add pinch to zoom support when using Canvas rendering</li>
+<li>Pane title color now inherits chart title color to match theme</li>
+<li>New Chart series: Vertical Box Plot</li>
+<li>Setting ticks, grid lines and labels step to 0 will be ignored</li>
+<li>toggleHighlight should allow highlighting specific point</li>
+<li>Add plotAreaHover event</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>JavaScript error is thrown when Min is set for an empty or data-bound CategoryAxis with Line/Area series</li>
+<li>Vertical touch scrolling is not possible even when the Chart yAxis panning is disabled</li>
+<li>Bar chart tooltips will be offset if part of the bar is clipped</li>
+<li>noteClick and noteHover do not pass data item for axis notes</li>
+<li>seriesHover event arguments don't contain value, dataItem and series reference when hovering the target element of Bullet series</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ComboBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>k-ng-model does not update $dirty and $pristine</li>
+<li>Virtualized widget throws an error when selected value is cleared</li>
+<li>DropDown Grouping Headers jump up/down on hover of the first item in the group</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ContextMenu</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add support for custom image and content attributes in client side rendering</li>
+<li>Add support for custom attributes in client side rendering</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DatePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>When the selected date matches the current date, the date is difficult to read in the dropdown (Bootstrap theme)</li>
+<li>DatePicker cannot be disabled in IE11 when using AngularJS.</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DateTimePicker</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>When the selected date matches the current date, the date is difficult to read in the dropdown (Bootstrap theme)</li>
+<li>setOptions of max time does not work</li>
+<li>Selecting min date applies current timezone offset incorrectly</li>
+<li>Result is not consistent when max date is selected</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Diagram</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Automatically update shape when binding to HierarchicalDataSource and an item is changed</li>
+<li>Add methods for retrieving shapes and connections by dataSource item.</li>
+<li>Add selectable multiple option</li>
+<li>Allow single selection and panning without the need to press a key</li>
+<li>Add fontWeight and fontStyle options</li>
+<li>Improve selection and drag&amp;drop behavior on mobile devices</li>
+<li>Indicate which end of the connector is being dragged in the drag event</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li><span class='breaking'>Breaking</span> TypeScript: Diagram connections and shapes are of wrong type</li>
+<li>Add missing connections content options - fontSize, color ...</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Drawing</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add support for events when rendering to Canvas</li>
+<li>Add drawing tooltip</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>DropDownList</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>k-ng-model does not update $dirty and $pristine</li>
+<li>Virtualized widget throws an error when selected value is cleared</li>
+<li>DropDown Grouping Headers jump up/down on hover of the first item in the group</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Editor</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add auto-link functionality in Editor widget</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Images are no exported to PDF when image src points to an action which execution is more than 200 - 400ms</li>
+<li>Table cell with paragraphs contains an additional line</li>
+<li>Blank paragraphs are not rendered when displaying content</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Excel Export</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add Telerik.Documents.SpreadsheetStreaming library to spreadsheet redistributables</li>
+<li>Update bundled JSZip to version 2.6.0</li>
+<li>Add showGridLines option to Worksheet</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Globalization</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Formatting numbers on groups gives unexpected output</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Grid</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add filterable.messages.search option</li>
+<li>Multi-page PDF Export will now produce documents with variable row count. The pdf.paperSize option must be set to a value different than "auto".</li>
+<li>Adaptive version of checkbox filter search box</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Centuries depth text does not wrap when DatePicker is in filter menu in grid column menu</li>
+<li>Grid rows hover effect should match the theme hover effect</li>
+<li>Grid multi column headers may miss a left border on the third row</li>
+<li>Excel export throws error with server grouping</li>
+<li>Select all option should be removed when multicheck is fitlered</li>
+<li>Multi checkbox filter does not filter correctly floating point numbers when using non default culture</li>
+<li>Custom filter menu is not focused on Alt+Down</li>
+<li>Bottom border should be used instead of top for Grid rows in Bootstrap theme</li>
+<li>Filter multicheck doesn't show all checkbox items after search and clear</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Map</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add shapeFeatureCreated event </li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Map scripts can't be loaded with RequireJS due to undeclared dependency</li>
+<li>Bing tile layer doesn't work in Cordova applications</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Menu</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add support for custom image and content attributes in client side rendering</li>
+<li>Add support for custom attributes in client side rendering</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>MultiSelect</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Virtualized widget throws an error when selected value is cleared</li>
+<li>DropDown Grouping Headers jump up/down on hover of the first item in the group</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Notification</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>New showText method encodes HTML entities for better protection from XSS attacks</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>NumericTextBox</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>k-ng-model does not update $dirty and $pristine</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>PDF Export</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Update bundled pako_deflate library to version 1.0.1</li>
+<li>Multi-page PDF Export will now produce documents with variable row count. The pdf.paperSize option must be set to a value different than "auto".</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Images are no exported to PDF when image src points to an action which execution is more than 200 - 400ms</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Pager</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Pager's page selector (dropdownlist) is out of place in screen &lt;= 1024px</li>
+<li>In adaptive mode "goto last page" overlaps the "refresh" button of the pager</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Scheduler</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Make current time marker render across the view</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Views button is not aligned correctly on Edge browser</li>
+<li>Change event is not triggered after clearing the selection</li>
+<li>Scheduler is not rendered correctly when Fiori theme is used</li>
+<li>Scheduler selection is lost</li>
+<li>Widget does not match the recurrence exdate pattern correctly</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Spreadsheet</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Expose Sheet DataSource instance as a field</li>
+<li>Add showGridLines method to Sheet instances</li>
+<li>Include the sheets.showGridLines property in the client-side import and export</li>
+<li>Add support for Hyperlinks</li>
+<li>Support multi-line editing</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Reverting changes after inserting a row duplicates the last record</li>
+<li>Formula imports value from another sheet</li>
+<li>JS Error when moving selection after Undo</li>
+<li>JS error on clicking Undo after clicking Paste/Cut</li>
+<li>Telerik.Web.Spreadsheet serializes cell's verticalAlign as "middle" instead of "center" in the output JSON</li>
+<li>Hidden columns are not hidden in exported xlsx</li>
+<li>Autofilling modifies disabled cells</li>
+<li>activeSheet is not updated when the excelImport progress promise is resolved</li>
+<li>fromJSON throws an error when loading data that exceeds the set maximum columns or rows</li>
+<li>Format command is applied over filtered out rows</li>
+<li>JS error when widget width is less than cell width</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>StockChart</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add plotAreaHover event</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TabStrip</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>TabStrip tabs hover background color is wrong in type-material themes</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ThemeBuilder</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Resource links refer to the old CDN</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>ToolBar</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Toggleable buttons from a group cannot be selected in the overflow popup menu</li>
+<li>Not possible to add space in input within a ToolBar</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeList</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Pushing updates via SignalR hub throws an error</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Upload</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Set Accept header to prefer `application/json`, but accept any response type in Upload requests</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Validator</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add support for reading message values from data- prefixed rule name attribute</li>
+</ul>
+            
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Window</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Use CSS transforms while dragging</li>
+</ul>
+            
+        </div>
+        <h1>Wrappers (ASP.NET MVC)</h1>
+        <div class="tClear poTopLine">
+            <div class="poBoxIconText">
+                <p><strong>What's new</strong></p>
+<ul>
+<li>Add DataSource HtmlHelper and allow sharing it with other helpers using DataSourceId</li>
+<li>Editor Helper for MVC Core</li>
+<li>Sparkline Helper for MVC Core</li>
+<li>New series type: Vertical Box Plot</li>
+<li>Create MVC6 TagHelpers </li>
+<li>Add messages for Slovak (Slovakia) locale. Contributed by Marian Meriac.</li>
+<li>MultiSelect Helper for MVC 6</li>
+<li>ComboBox Helper for MVC 6</li>
+<li>Add TreeView MVC6 Helper</li>
+<li>DropDownList Helper for MVC 6</li>
+<li>Add ListView MVC6 helper</li>
+</ul>
+                
+            </div>
+        </div>
+
+
+        <div class="tClear poTopLine">
+            <h2>DataSource</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Aggregates are not correctly serialized when using Custom or SignalR DataSource</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Gantt</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Setting Editable(false) after Editable template doesn't work</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Grid</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add Template, RepeatHeaders and Scale options to Grid PDF Settings</li>
+</ul>
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Limit cache size for dynamic classes generated during aggregation to avoid memory leaks</li>
+<li>ViewData passed from controller is not available in the EditorTemplate in ASP.NET Core</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>Scheduler</h2>
+            
+            <p><strong>What's fixed</strong></p>
+<ul>
+<li>Footer option is missing in MVC wrappers</li>
+</ul>
+        </div>
+        <div class="tClear poTopLine">
+            <h2>TreeView</h2>
+            <p><strong>What's new</strong></p>
+<ul>
+<li>Add TreeView to Kendo UI Scaffolder Visual Studio Extension</li>
+</ul>
+            
+        </div>
+    </div>
+</body>
+</html>
